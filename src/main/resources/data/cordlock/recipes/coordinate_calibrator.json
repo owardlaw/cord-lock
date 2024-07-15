@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WGW",
+    "G#G",
+    "WGW"
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "#": {
+      "item": "cordlock:signal_compass"
+    }
+  },
+  "result": {
+    "item": "cordlock:coordinate_calibrator"
+  }
+}

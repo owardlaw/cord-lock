@@ -28,7 +28,8 @@ public class CordLock
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
 
-//        ModBlocks.register(modEventBus);
+        // Register blocks and items
+        ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
     }
 

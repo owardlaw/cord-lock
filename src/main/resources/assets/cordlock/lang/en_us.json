@@ -1,3 +1,5 @@
 {
-  "item.cordlock.signal_compass" : "Signal compass"
+  "item.cordlock.signal_compass" : "Signal Compass",
+  "item.cordlock.coordinate_compass" : "Coordinate Calibrator"
+
 }

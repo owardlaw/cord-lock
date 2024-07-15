@@ -42,7 +42,7 @@ authors="Owen" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Provides block to trigger redstone signals based off of changes in cordinates.
+Provides block to trigger redstone signals based off of changes in coordinates.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.cordlock]] #optional
