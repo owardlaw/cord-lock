@@ -11,6 +11,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.owen.cordlock.block.ModBlocks;
+import net.owen.cordlock.item.ModItems;
 import org.slf4j.Logger;
 
 @Mod(CordLock.MOD_ID)
@@ -25,6 +27,10 @@ public class CordLock
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
+
+        // Register blocks and items
+        ModBlocks.register(modEventBus);
+        ModItems.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)

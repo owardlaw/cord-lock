@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "cordlock:block/coordinate_calibrator" }
+  }
+}
